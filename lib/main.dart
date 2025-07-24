@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
-import 'views/calculator.dart';
-import 'views/stopwatch.dart';
+import 'package:flutter_colleage/arzoo%20sir/notes_app.dart';
+import 'nikunj sir/calculator.dart';
+import 'nikunj sir/stopwatch.dart';
 
 void main() {
   runApp(const MyApp());
@@ -18,7 +19,12 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.teal),
       ),
-      home: Stopwatch(),
+
+      //! arzoo sir
+      home: NotesApp(),
+
+      //! nikunj sir componetns
+      // home: Stopwatch(),
       // home: Calculator(),
     );
   }
