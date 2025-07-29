@@ -21,10 +21,10 @@ class MyApp extends StatelessWidget {
       ),
 
       //! arzoo sir
-      home: NotesApp(),
+      // home: NotesApp(),
 
       //! nikunj sir componetns
-      // home: Stopwatch(),
+      home: Stopwatch(),
       // home: Calculator(),
     );
   }
